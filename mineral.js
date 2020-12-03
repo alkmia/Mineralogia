@@ -3,7 +3,7 @@ window.onload=function(){
      //alert("quadrado");
  }
  
- function assinar(){
+function assinar(){
      const select=document.querySelector("select");
      console.log(select.value); //valor que a pessoa selecioanou aula 08
      const mineral = select.value;
@@ -19,3 +19,13 @@ window.onload=function(){
          alert("selecione uma opção");
      }
  }
+
+ document.getElementById("titulo").animate([
+    // keyframes
+    { transform: 'translateY(0px)' }, 
+    { transform: 'translateY(-300px)' }
+  ], { 
+    // timing options
+    duration: 500,
+    iterations: 1
+  });
