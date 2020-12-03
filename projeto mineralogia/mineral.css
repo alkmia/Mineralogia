@@ -1,0 +1,209 @@
+body{
+    background-color:#ffffff ;
+    font-size: 1.1 em;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+ }
+ header {
+    background-image: linear-gradient(to top,   #e2805c, #fd8f68,  #fd8f68,  #fd8f68);
+    color: #f8f3ec;
+    border: #743c27;
+    text-align: center;
+    padding: 8px;
+    min-width: 700px;
+    max-width: 100%;
+}
+footer{
+    background-image: linear-gradient(#a03e3e,   #b84949,   #b84949);
+    color:#f8f3ec;
+    padding: 8px;
+    min-width: 700px;
+    max-width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    font-size: 0.9em;
+}
+main {
+    background-image: linear-gradient(to right,  #e7c492, #f8e9d4,
+    #f8e9d4, #f8e9d4, #f8e9d4,  #e7c492);
+    color: #2f1004;
+    margin: 24px;
+    padding:20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    min-width: 600px; /*define a largura mínima de um elemento*/
+    /**display: block;**/
+}
+section {
+    min-width: 600px; /*define a largura mínima de um elemento*/
+    max-width: 900px;
+    margin-left: auto; /*centralizou o conteúdo*/
+    margin-right: auto;/*centralizou o conteúdo*/
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.5em;
+    color: #722a0e;
+    text-shadow:rgba(50, 50, 50, 0.77) 2px 2px 2px;
+    font-weight: bold;
+}
+h2{
+    color: #50200e;
+    font-size: 2em;    
+    margin-top:40px;
+    clear: both;
+}
+
+h3{
+    color: rgb(230, 114, 71);
+    font-size: 1.5em;
+    margin-top:30px;
+    clear: both;
+}
+h4{
+    font-size: 1.1em;
+}
+.tabelas{
+    width: 100%;
+    margin-botton: 10px;
+}
+nav{
+    margin-top: 30px;
+}
+
+nav ul{
+    padding-left: 0px;
+    width: 100%;
+    height: 2em;
+}
+
+li.indice {
+    display: inline;
+    border: 3px solid brown;
+    padding: 10px;
+    margin: 6px;
+    background-color: #b84949;
+    -webkit-box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    3px 3px 3px rgba(50, 50, 50, 0.77);
+    box-shadow:         3px 3px 3px rgba(50, 50, 50, 0.77);
+    /*font color: #f8e9d4;*/
+
+}
+li.indice :link{
+    color: #f8e9d4;
+}
+li.indice :visited {
+    text-decoration:none;
+    color: #ebc794;
+}
+li.indice :hover{
+    color: yellow;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.clik{
+    color:#2f1004;
+    margin: 10px;
+    font-size: 1.1em;
+}
+
+.clik :link{
+    color: #2f1004;
+}
+
+.clik :hover{
+    color: #cc410e;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+.clik :visited{
+    text-decoration: none;
+}
+
+
+.topo{
+    border: 3px solid brown;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    margin: 6px;
+    color: #f8e9d4;
+    background-color: #b84949;
+    -webkit-box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    3px 3px 3px rgba(50, 50, 50, 0.77);
+    box-shadow:         3px 3px 3px rgba(50, 50, 50, 0.77);
+}
+
+.topo :visited {
+    text-decoration:none;
+    color: #ebc794;
+}
+.topo :hover{
+    color: yellow;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+
+.nome{
+    text-align: right;
+    font-weight: bold;
+    color: brown;
+    padding-right: 10px;
+    padding-top:6px;
+    width: 200px;
+}
+.centro {
+    display: flex;
+    justify-content: center;
+}
+footer > p{
+    margin-left: 20px;
+    text-decoration:none;
+}
+.largura{
+    width: 600px;
+}
+#appearance-select{
+    font-size: 1.2em;
+    background-color: #f8e9d4;
+    padding: 5px;
+    -webkit-box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    3px 3px 3px rgba(50, 50, 50, 0.77);
+    box-shadow:         3px 3px 3px rgba(50, 50, 50, 0.77);
+}
+
+#botao{
+    font-size: 1.2em;
+    background-color: #dabd95;
+    padding: 5px;
+    -webkit-box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    3px 3px 3px rgba(50, 50, 50, 0.77);
+    box-shadow:         3px 3px 3px rgba(50, 50, 50, 0.77);
+}
+img{
+    border: 3px solid #e4d2b9;
+    margin:15px;
+    -webkit-box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    3px 3px 3px rgba(50, 50, 50, 0.77);
+    box-shadow:         3px 3px 3px rgba(50, 50, 50, 0.77);
+}
+
+.RightImage {
+    display: flex;
+    float: right;
+    margin-left: 4%;
+    margin-top: 5px;
+    margin-right: 0px;
+}
+.LeftImage {
+    display: flex;
+    float: left;
+    margin-right: 4%;
+    margin-top: 5px;
+    margin-left: 0px;
+}
+
