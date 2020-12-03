@@ -207,8 +207,11 @@ img{
     margin-top: 5px;
     margin-left: 0px;
 }
-h1 {
-    animation: mudanca_cor 10s linear infinite;
+
+#titulo {animation: mudanca_cor 5s linear infinite, tamanho_fonte 5s linear;
+    /**mudança é o tipo de animação, 10s duração do evento, linear é contínuo, infinito: repete**/
+}
+h1 {animation: mudanca_cor 10s linear infinite;
 }
 
 @keyframes mudanca_cor {
