@@ -38,6 +38,8 @@ h1{
     color: #722a0e;
     text-shadow:rgba(50, 50, 50, 0.77) 2px 2px 2px;
     font-weight: bold;
+    animation: mudanca_cor 10s linear infinite;
+    
 }
 nav{
     margin-top: 30px;
@@ -162,4 +164,19 @@ footer > p{
     padding: 5px;
     -webkit-box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.77);
     -moz-box-shadow:    3px 3px 3px rgba(50, 50, 50, 0.77);
+    box-shadow:         3px 3px 3px rgba(50, 50, 50, 0.77);}
+}
+#botao{
+    font-size: 1.2em;
+    background-color: #dabd95;
+    padding: 5px;
+    -webkit-box-shadow: 3px 3px 3px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    3px 3px 3px rgba(50, 50, 50, 0.77);
     box-shadow:         3px 3px 3px rgba(50, 50, 50, 0.77);
+}
+    
+@keyframes mudanca_cor {
+    0%{ color:#722a0e;}
+    50%{color: #a13131; }
+    100%{ color:#722a0e; }
+}
