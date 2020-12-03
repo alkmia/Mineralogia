@@ -19,13 +19,3 @@ function assinar(){
          alert("selecione uma opção");
      }
  }
-
- document.getElementById("titulo").animate([
-    // keyframes
-    { transform: 'translateY(0px)' }, 
-    { transform: 'translateY(-300px)' }
-  ], { 
-    // timing options
-    duration: 500,
-    iterations: 1
-  });
